@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f16q2tmpxxy7sxcyuqcobwjfuwupakwy2whosmosa",
+  "Issue Number": "6",
+  "Client": {
+    "Name": "ESDC",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.cosmos.esa.int/web/esdc/home",
+    "Social Media": "ESDC",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Our team is not only a storage provider, but also a technology provider. We have extensive experience in Filecoin node operation and maintenance, and we know how to package and store data.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "ESAC National Reserve Statement :\nAstronomy Science Archives:cheops, euclid, esasky, exosat, gaia, herschel, hubble space\ntelescope integral iso jwst lisa pathfinder planck xmm-newton\nHeliophysics Science Archives:cluster, double star, probe-2, soho, solar orbiter, ulysses\nThe Planetary Science Archive:Bepicolombo, Cassini Huygens, Chandrayaan-1, ExoMars, Giotto, Juice, Mars Express, Rosetta, Smart-1, Venus Express\nFuture Archive:ariel、dish、smile、test-3\nTotal File Size:1146.2 TB",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "I will first download the dataset and categorize the content. I will use the built-in tools officially provided by Lotus (the reference implementation of Filecoin) to segment, compress, and package the data, and then distribute the data to SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://cdn.gea.esac.esa.int/Gaia/\nftp://hsa.esac.esa.int/\nftp://iso.esac.esa.int/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "South America, Asia other than Greater China, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03368008 Vietnam\nf03542777 Vietnam\nf03603117 United States",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "9PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 9,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-29 03:57:39.768774941 UTC",
+    "Validated By": "revelation2525",
+    "Active": true,
+    "Updated At": "2025-07-29 03:57:39.768770871 UTC",
+    "Active Request ID": "cec5b9ef-bd39-4e89-9d0b-d8f16594d1f6",
+    "On Chain Address": "f16q2tmpxxy7sxcyuqcobwjfuwupakwy2whosmosa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "cec5b9ef-bd39-4e89-9d0b-d8f16594d1f6",
+      "Request Type": "First",
+      "Created At": "2025-07-29 03:55:35.906555094 UTC",
+      "Updated At": "2025-07-29 03:55:35.906556104 UTC",
+      "Active": false,
+      "Allocation Amount": "329853488332800 B",
+      "Signers": [
+        {
+          "Github Username": "revelation2525",
+          "Signing Address": "f1honaskpbkfmfz7uffbj2rubgzvmpjxoszlxlmja",
+          "Created At": "2025-07-29 03:57:37.320000000 UTC",
+          "Message CID": "bafy2bzacecjz24l3e35wzl4huh6dm6iyo37aax5zfecomhxzodbbvdihge76c"
+        }
+      ]
+    }
+  ]
+}
