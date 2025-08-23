@@ -35,12 +35,12 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2025-08-02 15:45:43.670176059 UTC",
     "Validated By": "revelation2525",
-    "Active": true,
-    "Updated At": "2025-08-02 15:45:43.670172390 UTC",
-    "Active Request ID": "58579fa3-471c-4eb0-a989-b8400b38194c",
+    "Active": false,
+    "Updated At": "2025-08-23 07:00:00.436190237 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1ctj55dkuv57vnkmj6ngrnykofurgotrzncfsrnq",
     "Multisig Address": "false",
     "edited": false
