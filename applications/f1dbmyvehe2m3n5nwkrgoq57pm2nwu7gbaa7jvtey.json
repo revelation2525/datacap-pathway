@@ -36,11 +36,11 @@
     "Weekly Allocation": "300TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-24 05:04:22.301378379 UTC",
+    "State": "Granted",
+    "Validated At": "2025-08-24 13:12:45.858490823 UTC",
     "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2025-08-24 05:04:22.301383015 UTC",
+    "Updated At": "2025-08-24 13:12:45.858485978 UTC",
     "Active Request ID": "112ac2b1-cf38-4993-9a37-495a98bafa45",
     "On Chain Address": "f1dbmyvehe2m3n5nwkrgoq57pm2nwu7gbaa7jvtey",
     "Multisig Address": "false",
@@ -52,9 +52,18 @@
       "Request Type": "First",
       "Created At": "2025-08-24 05:04:22.301385422 UTC",
       "Updated At": "2025-08-24 05:04:22.301386518 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "16492674416640 B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "16492674416640 B",
+      "Signers": [
+        {
+          "Github Username": "revelation2525",
+          "Signing Address": "f1honaskpbkfmfz7uffbj2rubgzvmpjxoszlxlmja",
+          "Created At": "2025-08-24 13:12:34.976000000 UTC",
+          "Message CID": "bafy2bzaceb42erjz2uhclrfxof7g3usgsp62vn5stsofhhdxcpc24d5as6g42",
+          "Increase allowance CID": "bafy2bzaced3pq4yclfy7axbkhfpflmqhjreolvyh6ymytootazbbtefs4qw56"
+        }
+      ]
     }
   ]
 }
