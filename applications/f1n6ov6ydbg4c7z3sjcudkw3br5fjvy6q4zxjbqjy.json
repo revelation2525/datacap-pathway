@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1n6ov6ydbg4c7z3sjcudkw3br5fjvy6q4zxjbqjy",
   "Issue Number": "33",
+  "Client Contract Address": "f410ftn4wwvokyz3lkiuo776fxa2znethb4nac6ic24q",
   "Client": {
     "Name": "International Rice Research Institute",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-06 16:10:37.698200911 UTC",
+    "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2025-09-06 06:09:59.953804100 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-06 16:10:37.698204630 UTC",
+    "Active Request ID": "39629f9b-6ec7-4a78-9869-3da6e8a8d8f7",
     "On Chain Address": "f1n6ov6ydbg4c7z3sjcudkw3br5fjvy6q4zxjbqjy",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "39629f9b-6ec7-4a78-9869-3da6e8a8d8f7",
+      "Request Type": "First",
+      "Created At": "2025-09-06 16:10:37.698207271 UTC",
+      "Updated At": "2025-09-06 16:10:37.698208311 UTC",
+      "Active": true,
+      "Allocation Amount": "82463372083200 B",
+      "Signers": []
+    }
+  ]
 }
