@@ -3,7 +3,7 @@
   "ID": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
   "Issue Number": "38",
   "Client": {
-    "Name": "opendata@live-eo.com",
+    "Name": "LiveEO",
     "Region": "Germany",
     "Industry": "Life Science / Healthcare",
     "Website": "https://github.com/live-eo/sentinel1-slc/",
@@ -12,9 +12,9 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "oil spills, sea-ice, natural hazards, and for emergency response. In its current first stage, the dataset covers the entirety of Germany and is being updated continuously. As a next stage, the dataset",
+    "Brief history of your project and organization": "LiveEO was born from the idea that satellite data, a vast and almost untapped resource, has enormous potential to transform our lives, and the world around us, for the better.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
-    "Describe the data being stored onto Filecoin": ", thus drastically minimizing the storage and downloading time requirements of a project. Since the data is stored on S3, users can utilize the boto3 library and s3 get_object method to read the entire content of the object into the memory for processing, without actuall",
+    "Describe the data being stored onto Filecoin": "The Sentinel1 Single Look Complex (SLC) unzipped dataset contains Synthetic Aperture Radar (SAR) data from the European Space Agency’s Sentinel-1 mission. Different from the zipped data provided by ESA, this dataset allows direct access to individual swaths required for a given study area, thus drastically minimizing the storage and downloading time requirements of a project. Since the data is stored on S3, users can utilize the boto3 library and s3 get_object method to read the entire content of the object into the memory for processing, without actually having to download it. The Sentinel-1 constellation consists of two satellites equipped with SAR sensors and a combined revisit time of six days. SAR imagery gets recorded regardless of weather conditions and daylight, which makes it ideally suited for monitoring land-use changes, surface deformations, land applications, oil spills, sea-ice, natural hazards, and for emergency response. In its current first stage, the dataset covers the entirety of Germany and is being updated continuously. As a next stage, the dataset will provide up-to-date coverage of the sentinel-1 SLC data over Europe. This dataset is retrieved from Alaska Satellite Facility (ASF) and consists of all Sentinel1-SLC imagery from the beginning (2014) to present.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "We use aws-cli to download data from s3://sentinel1-slc/, and then use script tools to cut the files into files smaller than 32GiB and package them into car files. We distribute them to SPs via HTTP or shipping hard disks.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://sentinel1-slc/2014 18.0806 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2015 92.8213 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2016 59.2849 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2017 144.2543 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2018 155.0782 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2019 357.7882 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2020 108.7398 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2021 93.8465 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2022 87.1750 TiB",
