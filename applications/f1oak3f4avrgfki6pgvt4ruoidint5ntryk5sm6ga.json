@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
+  "Issue Number": "38",
+  "Client": {
+    "Name": "opendata@live-eo.com",
+    "Region": "Germany",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://github.com/live-eo/sentinel1-slc/",
+    "Social Media": "opendata@live-eo.com",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "oil spills, sea-ice, natural hazards, and for emergency response. In its current first stage, the dataset covers the entirety of Germany and is being updated continuously. As a next stage, the dataset",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": ", thus drastically minimizing the storage and downloading time requirements of a project. Since the data is stored on S3, users can utilize the boto3 library and s3 get_object method to read the entire content of the object into the memory for processing, without actuall",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use aws-cli to download data from s3://sentinel1-slc/, and then use script tools to cut the files into files smaller than 32GiB and package them into car files. We distribute them to SPs via HTTP or shipping hard disks.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://sentinel1-slc/2014 18.0806 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2015 92.8213 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2016 59.2849 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2017 144.2543 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2018 155.0782 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2019 357.7882 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2020 108.7398 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2021 93.8465 TiB\naws s3 ls --no-sign-request s3://sentinel1-slc/2022 87.1750 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03542777 Vietnam\nf03607310 Brazil\nf03603117 United States\nf03559187 United States\nf03100006 HongKong\nf03100007 HongKong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-09-13 13:39:24.459285347 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
