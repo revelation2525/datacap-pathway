@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
   "Issue Number": "38",
+  "Client Contract Address": "f410ftn4wwvokyz3lkiuo776fxa2znethb4nac6ic24q",
   "Client": {
     "Name": "LiveEO",
     "Region": "Germany",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-09-19 08:33:54.212259288 UTC",
+    "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2025-09-13 13:39:24.459285347 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-09-19 08:33:54.212262985 UTC",
+    "Active Request ID": "e9312333-4167-4ecf-b45e-0a3c9b2b9eea",
     "On Chain Address": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "e9312333-4167-4ecf-b45e-0a3c9b2b9eea",
+      "Request Type": "First",
+      "Created At": "2025-09-19 08:33:54.212264782 UTC",
+      "Updated At": "2025-09-19 08:33:54.212265705 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
