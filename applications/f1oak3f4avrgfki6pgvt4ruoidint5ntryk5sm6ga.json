@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-09-24 04:21:08.202014430 UTC",
+    "Validated At": "2025-10-01 17:26:38.975611263 UTC",
     "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2025-09-24 04:21:08.202010935 UTC",
-    "Active Request ID": "e59af508-8657-4fc1-9443-863e30e64c10",
+    "Updated At": "2025-10-01 17:26:38.975610391 UTC",
+    "Active Request ID": "a3d7668e-24f4-4eec-a2e7-7d2798d38bc1",
     "On Chain Address": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
     "Multisig Address": "false",
     "edited": false
@@ -112,6 +112,38 @@
               " 3641974 ",
               " 3641984  ",
               "3641964"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "a10d1f82-0522-4aab-a7a4-178d11215ab6",
+      "Created At": "2025-10-01 17:26:38.975592261 UTC",
+      "Updated At": "2025-10-01 17:26:38.975597438 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3641915,
+        3641951,
+        3641955,
+        3641974,
+        3641984,
+        3641964,
+        3649204,
+        3649212,
+        3649217,
+        3649227
+      ],
+      "Signers": [
+        {
+          "Github Username": "revelation2525",
+          "Signing Address": "f1honaskpbkfmfz7uffbj2rubgzvmpjxoszlxlmja",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceax4nc5gydrtf3hxkvnls5ud7usflyt2jdkin4k2t47xbwugo6pqw": [
+              "3649204",
+              "3649212",
+              " 3649217",
+              "3649227"
             ]
           }
         }
