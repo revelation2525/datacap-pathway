@@ -36,12 +36,12 @@
     "Weekly Allocation": "300TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "TotalDatacapReached",
     "Validated At": "2025-10-24 09:05:12.712072548 UTC",
     "Validated By": "revelation2525",
-    "Active": true,
-    "Updated At": "2025-10-24 09:05:12.712067917 UTC",
-    "Active Request ID": "99df9652-ceea-47bd-b949-28799caa8773",
+    "Active": false,
+    "Updated At": "2025-10-24 16:00:08.906474968 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1dbmyvehe2m3n5nwkrgoq57pm2nwu7gbaa7jvtey",
     "Multisig Address": "false",
     "edited": false
