@@ -35,11 +35,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-11-04 04:51:15.727166641 UTC",
+    "State": "Granted",
+    "Validated At": "2025-11-04 04:53:40.195943391 UTC",
     "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2025-11-04 04:51:15.727172318 UTC",
+    "Updated At": "2025-11-04 04:53:40.195937932 UTC",
     "Active Request ID": "253d5bf9-8d07-48f3-9280-33fa3be61f40",
     "On Chain Address": "f16q2tmpxxy7sxcyuqcobwjfuwupakwy2whosmosa",
     "Multisig Address": "false",
@@ -147,9 +147,16 @@
       "Request Type": "Refill",
       "Created At": "2025-11-04 04:51:15.727219609 UTC",
       "Updated At": "2025-11-04 04:51:15.727221216 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2251799813685248B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "revelation2525",
+          "Signing Address": "f1honaskpbkfmfz7uffbj2rubgzvmpjxoszlxlmja",
+          "Created At": "2025-11-04 04:53:37.396000000 UTC",
+          "Message CID": "bafy2bzaceaxkh2lqu2gulq3cy5slgbm6nu5fefndfnzv4rlk266xnmtsrsaf2"
+        }
+      ]
     }
   ]
 }
