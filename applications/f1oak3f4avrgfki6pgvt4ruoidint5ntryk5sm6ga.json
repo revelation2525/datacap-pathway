@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-10-23 04:32:07.651875402 UTC",
+    "Validated At": "2025-12-06 16:03:38.223620426 UTC",
     "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2025-10-23 04:32:07.651872134 UTC",
-    "Active Request ID": "64ac2e34-550f-40fd-abf8-a8e10273a431",
+    "Updated At": "2025-12-06 16:03:38.223616596 UTC",
+    "Active Request ID": "586dd15a-a7d9-4b81-9cfd-9473f6945cb5",
     "On Chain Address": "f1oak3f4avrgfki6pgvt4ruoidint5ntryk5sm6ga",
     "Multisig Address": "false",
     "edited": false
@@ -116,6 +116,24 @@
           "Created At": "2025-10-23 04:32:05.045000000 UTC",
           "Message CID": "bafy2bzacecsbor7oms7x6hql4qdhfqqnqtmhzngqv7i32rwc7ulxblw6kguyk",
           "Increase allowance CID": "bafy2bzacebl7nnolqcfmzv7nph5jx2kit3n2ji35zzk33hucrysc6il5ifzay"
+        }
+      ]
+    },
+    {
+      "ID": "586dd15a-a7d9-4b81-9cfd-9473f6945cb5",
+      "Request Type": "Refill",
+      "Created At": "2025-12-06 15:57:59.439877852 UTC",
+      "Updated At": "2025-12-06 15:57:59.439878864 UTC",
+      "Active": false,
+      "Allocation Amount": "2533274790395904B",
+      "Amount of Datacap Sent to Contract": "2533274790395904B",
+      "Signers": [
+        {
+          "Github Username": "revelation2525",
+          "Signing Address": "f1honaskpbkfmfz7uffbj2rubgzvmpjxoszlxlmja",
+          "Created At": "2025-12-06 16:03:35.716000000 UTC",
+          "Message CID": "bafy2bzacec33keodc46r6zzjpuz6f4jcm6pnzyr5zt4jokfb2byl4spc6yyg2",
+          "Increase allowance CID": "bafy2bzacebpfziseq5t62qvdr6d7jdjnlho7q4tnoa4jx4ndo7wa77faovi7u"
         }
       ]
     }
@@ -216,6 +234,48 @@
               "3641951",
               "3641955",
               "3641964"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "71d1ab8c-89a5-4fe3-9f58-918d38327ff0",
+      "Created At": "2025-12-06 16:01:08.426659204 UTC",
+      "Updated At": "2025-12-06 16:01:08.426668682 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099888,
+        3100088,
+        3099287,
+        3098965,
+        3099101,
+        3099008
+      ],
+      "Signers": [
+        {
+          "Github Username": "revelation2525",
+          "Signing Address": "f1honaskpbkfmfz7uffbj2rubgzvmpjxoszlxlmja",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebdbw5qjeh2j6zyzttcto667sgz3js6txpfhmtb255qp6mevzoi6k": [
+              "3099888",
+              "3100088",
+              "3099287",
+              "3098965",
+              "3099101",
+              "3099008"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebaaxsagacq4pbtp5534ftddf7xbeyhs4oqfgprln456cyaw6cuza": [
+              "3637813",
+              "3637821",
+              "3649227",
+              "3641974",
+              "3641984",
+              "3649217",
+              "3649204",
+              "3649212"
             ]
           }
         }
