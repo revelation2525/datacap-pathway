@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1ljo3otqh2bx2og4rkw3hyhlwsrndi3mfdfr3oji",
   "Issue Number": "59",
+  "Client Contract Address": "f410ftn4wwvokyz3lkiuo776fxa2znethb4nac6ic24q",
   "Client": {
     "Name": "https://open.quiltdata.com/b/aind-open-data/tree/?prefix=exaSPIM/",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1000 TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2026-01-20 12:50:12.205866496 UTC",
+    "Validated By": "revelation2525",
     "Active": true,
-    "Updated At": "2026-01-12 16:18:20.504839632 UTC",
-    "Active Request ID": "",
+    "Updated At": "2026-01-20 12:50:12.205872176 UTC",
+    "Active Request ID": "243fe7f2-133f-4353-a5f1-2f5f3b047677",
     "On Chain Address": "f1ljo3otqh2bx2og4rkw3hyhlwsrndi3mfdfr3oji",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "243fe7f2-133f-4353-a5f1-2f5f3b047677",
+      "Request Type": "First",
+      "Created At": "2026-01-20 12:50:12.205874752 UTC",
+      "Updated At": "2026-01-20 12:50:12.205876136 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
